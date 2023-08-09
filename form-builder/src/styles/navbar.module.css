@@ -1,0 +1,46 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 20px;
+    border-bottom: 1px solid #249e5e;
+    height: 58px;
+}
+
+
+
+.publish .button,
+.publish .inactiveButton,
+.publish .returnButton {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #249e5e;
+    color: #fff;
+    cursor: pointer;
+}
+
+.publish .inactiveButton {
+    background-color: grey;
+    pointer-events: none;
+}
+
+.publish .returnButton {
+    background-color: red;
+}
+
+.publish a {
+    text-decoration: none;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+
+@media (min-width: 1400px) {
+
+    .container {
+        max-width: 1320px;
+    }
+}

@@ -1,0 +1,90 @@
+.sectionHead {
+    display: none;
+}
+
+p,
+span {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    background-color: #cccccc;
+    padding: 40px 0px;
+    min-height: 500px;
+}
+
+.myform {
+    margin: 0 auto;
+    max-width: 300px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 25px;
+    padding: 30px 20px;
+    background-color: #ffffff;
+    box-shadow: -3px 4px 6px 0px #e3e3e3;
+
+}
+
+.inputText {
+    font-size: 14px;
+    width: 98%;
+    border: none;
+    height: 35px;
+    border-radius: 4px;
+    padding: 2px 5px;
+    background-color: #eee;
+    color: #6d6d6d;
+}
+
+.inputSelect {
+    font-size: 14px;
+    border: none;
+    height: 35px;
+    border-radius: 4px;
+    padding: 2px 5px;
+    background-color: #eee;
+    color: #6d6d6d;
+}
+
+.radioContainer {
+    display: flex;
+    column-gap: 8px;
+}
+
+.radioBox {
+    display: flex;
+    align-items: center;
+    column-gap: 4px;
+}
+
+.inputCheck {
+    display: flex;
+}
+
+.formButton {
+    width: 150px;
+    height: 30px;
+    text-decoration: none;
+    background-color: #000;
+    color: #ffffff;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.formHeading {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media (min-width: 1400px) {
+
+    .container {
+        max-width: 1320px;
+    }
+}

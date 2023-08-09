@@ -1,0 +1,26 @@
+.wrapper {
+    background-color: #EADADA;
+}
+
+.sectionHead {
+    text-align: center;
+    color: #333;
+    font-weight: bold;
+    cursor: default;
+}
+
+.itemsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    justify-content: space-between;
+    row-gap: 20px;
+}
+
+.itemsContainer div {
+    text-align: center;
+    width: 48%;
+    padding: 15px;
+    border: 1px solid rgb(168, 8, 120);
+    cursor: pointer;
+}

@@ -1,0 +1,33 @@
+.contentWrapper {
+    display: flex;
+
+}
+
+.leftPanel {
+    width: 35%;
+    padding: 20px 20px 20px 20px;
+    background-color: #EADADA;
+    min-height: 90vh;
+}
+
+.workSpace {
+    width: 40%;
+    padding: 20px;
+}
+
+.jsonPanel {
+    width: 25%;
+    padding: 20px;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+
+@media (min-width: 1400px) {
+
+    .container {
+        max-width: 1320px;
+    }
+}
